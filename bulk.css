@@ -1,0 +1,104 @@
+.line{
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+}
+.header{
+    display: flex;
+    position: sticky;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(251, 248, 248);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.logo img{
+    height: 50px;
+    width: 260px;
+    margin: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+   
+    text-decoration: none;
+    padding: 22px 0px;
+    margin: 20px;
+    font-size: large;
+    font-family:sans-serif;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    gap: 25px;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(110, 112, 114);
+}
+
+.button{
+    text-decoration: none;
+    float: right;
+    border: none;
+    text-decoration: none;
+    margin-left: auto; 
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+.body{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(252, 251, 250);
+}
+.box1{
+    height: auto;
+    width: 30%;
+    background-color: rgb(238, 247, 246);
+    text-align: justify;
+    padding-top: 70px;
+    padding-left: 60px;
+    color: #445869;
+    font-family: sans-serif;
+    font-weight:900;
+}
+.box2{
+    height: auto;
+    width: 70%;
+    background-color: rgb(238, 247, 246);
+    padding-top: 10px;
+    padding-left: 150px;
+    vertical-align: middle;
+}
+.page2{
+    height: 1000px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    color: #d79823;
+    font-family:sans-serif;
+}
+/* .card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    float: left;
+}
+   .parent1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    float: left;
+    margin-bottom: 5px;
+}
+.parent2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    float: left;
+    margin-top: 10px;
+} */
+
+
+
+
+
