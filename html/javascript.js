@@ -27,11 +27,11 @@
 //     var x='Black Box Movie';
 // console.log(typeof(a))
 
-//boolean
+// boolean
 
 
-    // let abc='Bigint';
-    //     abc=false
+//     let abc='Bigint';
+//         abc=false
 
 {
     var x='in a block';
@@ -49,3 +49,7 @@
     }
 console.log(typeof(z))
 }
+
+
+
+

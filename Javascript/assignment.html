@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+
+<body>
+
+
+    <div class="mainbox">
+        <div class="sidebar">
+            <h2>Button Styles</h2>
+            <!-- <div class="buttons"> -->
+            <div>
+                <input type="text" class="sidebarbutton" id="bgcolor" placeholder="Bgcolor">
+                <button class="sidebarbutton" id="bgcolorbtn">Submit</button>
+            </div>
+            <div>
+                <input type="text" class="sidebarbutton" id="textalign" placeholder="Textalign">
+                <button class="sidebarbutton" id="textalignbtn">Submit</button>
+            </div>
+            <div>
+                <input type="text" class="sidebarbutton" id="height" placeholder="Height">
+                <button class="sidebarbutton" id="heightbtn">Submit</button>
+            </div>
+            <div>
+                <input type="text" class="sidebarbutton" id="width" placeholder="Width">
+                <button class="sidebarbutton" id="widthbtn">Submit</button>
+            </div>
+            <div>
+                <input type="text" class="sidebarbutton" id="flexdirection" placeholder="Flex-direction">
+                <button class="sidebarbutton" id="flexdirectionbtn">Submit</button>
+            </div>
+            <div>
+                <input type="text" class="sidebarbutton" id="gap" placeholder="Gap">
+                <button class="sidebarbutton" id="gapbtn">Submit</button>
+            </div>
+            <div>
+                <input type="text" class="sidebarbutton" id="justifycontent" placeholder="Justify-content">
+                <button class="sidebarbutton" id="justifycontentbtn">Submit</button>
+            </div>
+            <div>
+                <input type="text" class="sidebarbutton" id="alignitems" placeholder="Align-items">
+                <button class="sidebarbutton" id="alignitemsbtn">Submit</button>
+            </div>
+            <!-- </div> -->
+
+        </div>
+
+        <div id="rightside">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <!-- <div class="box1" id="boxes"> -->
+            <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem eveniet est sint, corporis
+                dignissimos culpa tempore repellat quasi, laborum nemo suscipit eum deserunt, voluptatum
+                praesentium dolore! Natus sapiente tenetur porro lo.</p>
+            <!-- </div> -->
+            <div id="cards">
+                <div class="card1"></div>
+                <div class="card2"></div>
+                <div class="card3"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let para = document.getElementById('para')
+
+        let bgcolor = document.getElementById("bgcolor")
+        let rightside = document.getElementById("rightside")
+        let btn = document.getElementById("bgcolorbtn");
+        btn.addEventListener("click", function () {
+            rightside.style.backgroundColor = bgcolor.value
+        })
+
+
+        let textalign = document.getElementById('textalign')
+        let textalignbtn = document.getElementById("textalignbtn");
+        textalignbtn.addEventListener("click", function () {
+            para.style.textAlign = textalign.value
+        })
+
+        // let right = document.getElementById('rightside')
+        let height = document.getElementById("height")
+        let heightbtn = document.getElementById("heightbtn");
+        heightbtn.addEventListener("click", function () {
+            para.style.height = height.value;
+        })
+
+        
+        let width = document.getElementById("width")
+        let widthbtn = document.getElementById("widthbtn");
+        widthbtn.addEventListener("click", function () {
+            para.style.width = width.value;
+        })
+
+        let cards = document.getElementById('cards')
+
+
+        let flexdirection = document.getElementById("flexdirection")
+        let flexdirectionbtn = document.getElementById("flexdirectionbtn");
+        flexdirectionbtn.addEventListener("click", function () {
+            cards.style.flexDirection = flexdirection.value;
+        })
+       
+       
+        let gap = document.getElementById("gap")
+        let gapbtn = document.getElementById("gapbtn");
+        gapbtn.addEventListener("click", function () {
+            cards.style.gap = gap.value;
+        })
+
+        
+        let justifycontent = document.getElementById("justifycontent")
+        let justifycontentbtn = document.getElementById("justifycontentbtn");
+        justifycontentbtn.addEventListener("click", function () {
+            cards.style.justifyContent = justifycontent.value;
+        })
+
+      
+        let alignitems = document.getElementById("alignitems")
+        let alignitemsbtn= document.getElementById("alignitemsbtn");
+        alignitemsbtn.addEventListener("click", function () {
+            cards.style.alignItems = alignitems.value;
+        })
+
+       
+
+    </script>
+
+
+</body>
+
+</html>
